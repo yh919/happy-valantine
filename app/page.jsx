@@ -34,6 +34,7 @@ export default function Page() {
   };
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
@@ -62,5 +63,9 @@ export default function Page() {
         </>
       )}
     </div>
+        <div className="flex items-center justify-center">
+        <a href="http://yhstudio.vercel.app" className=" hover:underline hover:underline-offset-3 font-bold text-md">YHSTUDIO</a>
+        </div>
+      </>
   );
 }
